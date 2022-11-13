@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+   /* background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)) ;*/
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between; 
+}
+
+nav .logo {
+    width: 70px;
+    margin-top: 0;
+    height: 63px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-top: 18px;
+
+ }
+
+ nav ul li a{
+    text-decoration: none;
+    color: rgb(243, 238, 238);
+    font-size: 23px;
+ }
+ nav button{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(16, 15, 15);
+    font-size: 16px;
+    border: 2px solid #fff;
+    padding: 13px;
+    border-radius: 50px;
+    margin-top: 9px;
+    background-color: rgb(240, 237, 233);
+ }
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .content{
+    text-align: center;
+ }
+
+ .content h2{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: auto;
+ }
+
+ .content h2:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+ }
+
+ .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(16, 15, 15);
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background-color: #fff;
+ }
+
+ .backvideo{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    size: 100%;
+    opacity: 90%;
+    width: 100%;
+ }
+
+ @media (min-aspect-ratio: 16/9){
+    .backvideo{
+        width:100%;
+        height: auto;
+    }
+ }
+ @media (max-aspect-ratio: 16/9){
+    .backvideo{
+        width:auto;
+        height: 100%;
+    }
+ }
+
+
+ .menu .Tech{
+    margin-right: 8px;
+    
+ }
+ 
+ .tech {
+    display: none;
+   
+ }
+
+ .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+
+ }
+
+ .menu ul li:hover .tech
+ {
+    display: block;
+    position: absolute;
+    background: rgb(25, 26, 25);
+    margin-top: 15px;
+    margin-left: -15px;
+ }
+
+ .menu ul li:hover .tech ul 
+ {
+    display: block;
+    margin: 10px;
+
+ }
+ .menu ul li:hover .tech ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px do #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+ }
+
+ .topmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction:column;
+ } 

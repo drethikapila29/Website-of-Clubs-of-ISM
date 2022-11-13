@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css">
+
+    <title>Login</title>
+</head>
+    <body >         
+    
+        
+         <div id="login-box">
+        <div class="left">
+            <h1>Log In</h1>
+            <input type="text" id="email" name="email" placeholder="E-mail" />
+            <input type="password" id="password" name="password" placeholder="Password" />
+            <input type="submit" id="logIn" name="logIn" value="Log In" />
+        </div>
+        <div class="or">OR</div>
+
+        <div class="right">
+            <span class="loginwith"><b>Sign In with<br />Social Network</b></span>
+
+            <button class="social-signin facebook">Log in with facebook</button>
+            <button class="social-signin twitter">Log in with twitter</button>
+            <button class="social-signin google">Log in with google+</button>
+        </div>
+       
+        </div>
+        <!-- <script src= "https://www.gstatic.com/firebasejs/9.6.11/firebase-database.js";></script>
+        <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-auth.js";></script> -->
+      
+        <script type="module" src="firebase.js"></script>
+        <script type="module" src="login.js"></script>
+
+    </body>
+        
+        
+     
+</html>
